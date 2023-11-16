@@ -1,12 +1,10 @@
-/*Style*/
-
 .novo-menu{
 	display: none;
 }
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	background: linear-gradient(68.15deg, #312f2f 16.62%, #992786 85.61%);
+	background: linear-gradient(68.15deg, #312f2f 16.62%, #330d2d 85.61%);
 }
 
 a{
@@ -19,6 +17,10 @@ p{
 	line-height: 20px;
 }
 
+.justify { 
+	text-align: justify;
+}
+
 .btn{
 	border: 3px solid #3ed1fe;	
 	color: #3ed1fe;
@@ -29,11 +31,13 @@ p{
 	font-weight: bold;
 	letter-spacing: .1em;
 	transition: 1s;
+	width: min-content;
+	align-self: center;
 }
 
 .btn:hover{
-	border: 3px solid #FFF;	
-	color: #FFF;
+	border: 3px solid #FFFFFF;	
+	color: #FFFFFF;
 	padding: 12px 35px;	
 	font-size: 16px;
 	line-height: 22px;
@@ -41,8 +45,8 @@ p{
 }
 
 .btn-branco:hover{
-	border: 3px solid #fff;	
-	color: #fff;
+	border: 3px solid #FFFFFF;	
+	color: #FFFFFF;
 }
 
 .subtitulo{
@@ -50,7 +54,7 @@ p{
 	line-height: 30px;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #FFF;
+	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 30px;
@@ -61,7 +65,7 @@ p{
 	display: block;
 	width: 100px;
 	height: 4px;
-	background-color: white;
+	background-color: #FFFFFF;
 	margin: auto;
 }
 
@@ -70,7 +74,7 @@ p{
 	line-height: 30px;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #FFF;
+	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 30px;
@@ -82,7 +86,7 @@ p{
 	display: block;
 	width: 100px;
 	height: 4px;
-	background-color: white;
+	background-color: #FFFFFF;
 	margin: auto;
 	margin: 5px 0px;
 }
@@ -92,20 +96,20 @@ p{
 }
 
 .header_menu li .ativo{
-	color: #000;
+	color: #FFFFFF;
 }
 
 /**************************************************************************/
-/*Apenas para as Introduções que criaremos a partir da parte de promoções*/
+/* ~ Apenas para as Introduções que criaremos a partir da parte de promoções*/
 /**************************************************************************/
 
 .intro-paginas{
 	width: 100%;
 	height: 160px;
 	text-align: center;
-	color: white;
+	color: #FFFFFF;
 	padding: 30px;
-	text-shadow: 0 0 5px black;
+	text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 .intro-paginas h1{
@@ -119,7 +123,7 @@ p{
 	display: block;
 	width: 50px;
 	height: 4px;
-	background-color: #fff;
+	background-color: #FFFFFF;
 	margin: 10px auto;
 }
 
@@ -130,8 +134,7 @@ p{
 }
 
 .historia-sobre{
-	padding-top: 60px;
-	color: #FFF;
+	color: #FFFFFF;
 }
 
 .historia-sobre p, .historia-sobre li{
@@ -139,13 +142,12 @@ p{
 	line-height: 25px;
 	margin-bottom: 1em;
 	padding-right: 50px; 
-	color: #FFF;
+	color: #FFFFFF;
 }
 
 /*HEADER*/
 header{
 	width: 100%;
-	background: linear-gradient(68.15deg, #312f2f 16.62%, #992786 85.61%);
 	padding: 15px 0;
 	border-bottom: 2px solid black;
 }
@@ -162,7 +164,7 @@ header{
 }
 
 .header_menu li a{
-	color: black;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -173,7 +175,7 @@ header{
 
 .header_menu .pipe:after{
 	content: "|";
-	color: black;
+	color: #3ed1fe;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -183,27 +185,31 @@ header{
 }
 
 .header_menu li a:hover{
-	color: white;
+	color: #3ed1fe;
 }
 
-/*Introdução*/
+/* ~Introdução*/
 .intro{
 	width: 100%;
-	height: 400px;
-	background-image: url("../img/fundoSite.jpg");
+	height: 300px;
+	background-image: url("../img/fundosite.png");
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: bottom;
 	background-size: cover;
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
 }
 
 .intro h1{
-	font-size: 48px;
+	font-size: 20px;
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-shadow: 0px 0px 10px black;
+	width: 50%;
+	align-self: center;
 }
 
 blockquote{
@@ -276,6 +282,7 @@ blockquote p:before, blockquote p:after{
 
 .call p{
 	margin-bottom: 20px;
+	color: #FFFFFF;
 }
 
 /*Portifolio*/
