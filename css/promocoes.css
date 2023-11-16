@@ -1,0 +1,27 @@
+.intro-sobre{
+	background-image: url("../img/fundoSite.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.enfase{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.historia-sobre{
+	padding-top: 60px;
+}
+
+.historia-sobre p, .historia-sobre li{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 50px; 
+}
+
+.foto-equipe{
+	padding-top: 40px;
+	width: 40%;
+	height: 550px;
+}

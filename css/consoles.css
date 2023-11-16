@@ -1,0 +1,25 @@
+.intro-portifolio{
+	background-image: url("../img/fundoSite.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+
+.mensagem-cliente{
+	padding-bottom: 20px;
+}
+
+.mensagem-cliente blockquote p{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.mensagem-cliente blockquote cite{
+	color: #3ed1fe;
+	float: right;
+	font-style: normal;	
+}
+

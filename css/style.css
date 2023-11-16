@@ -1,0 +1,425 @@
+/*Style*/
+
+.novo-menu{
+	display: none;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(68.15deg, #312f2f 16.62%, #992786 85.61%);
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.btn{
+	border: 3px solid #3ed1fe;	
+	color: #3ed1fe;
+	padding: 10px 30px;	
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition: 1s;
+}
+
+.btn:hover{
+	border: 3px solid #FFF;	
+	color: #FFF;
+	padding: 12px 35px;	
+	font-size: 16px;
+	line-height: 22px;
+	transition: 1s;
+}
+
+.btn-branco:hover{
+	border: 3px solid #fff;	
+	color: #fff;
+}
+
+.subtitulo{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.subtitulo:after{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: white;
+	margin: auto;
+}
+
+.subtitulo-esquerda{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.subtitulo-esquerda:after{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: white;
+	margin: auto;
+	margin: 5px 0px;
+}
+
+.ajusta-img{
+	width: 100%;
+}
+
+.header_menu li .ativo{
+	color: #000;
+}
+
+/**************************************************************************/
+/*Apenas para as Introduções que criaremos a partir da parte de promoções*/
+/**************************************************************************/
+
+.intro-paginas{
+	width: 100%;
+	height: 160px;
+	text-align: center;
+	color: white;
+	padding: 30px;
+	text-shadow: 0 0 5px black;
+}
+
+.intro-paginas h1{
+	font-weight: bold;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+
+.intro-paginas h1:after{
+	content: "";	
+	display: block;
+	width: 50px;
+	height: 4px;
+	background-color: #fff;
+	margin: 10px auto;
+}
+
+.enfase{
+	font-style: italic;
+	font-weight: bold;
+	color: #3ed1fe;
+}
+
+.historia-sobre{
+	padding-top: 60px;
+	color: #FFF;
+}
+
+.historia-sobre p, .historia-sobre li{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 50px; 
+	color: #FFF;
+}
+
+/*HEADER*/
+header{
+	width: 100%;
+	background: linear-gradient(68.15deg, #312f2f 16.62%, #992786 85.61%);
+	padding: 15px 0;
+	border-bottom: 2px solid black;
+}
+
+/*Menu*/
+.header_menu{
+	text-align: right;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.header_menu li{
+	display: inline-block;
+}
+
+.header_menu li a{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px;
+}
+
+.header_menu .pipe:after{
+	content: "|";
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px;
+}
+
+.header_menu li a:hover{
+	color: white;
+}
+
+/*Introdução*/
+.intro{
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/fundoSite.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.intro h1{
+	font-size: 48px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 10px black;
+}
+
+blockquote{
+	max-width: 40%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	color: white;
+}
+
+blockquote p, blockquote cite {
+	font-weight: bold;	
+	letter-spacing: .1em;
+}
+
+blockquote p:before, blockquote p:after{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: white;
+	margin: 15px auto;
+}
+
+/*consoles*/
+.MesmoTamanho{
+	width: 250px;
+	height: 250px;
+}
+.conscientizacao{
+	padding: 60px 0px;
+}
+
+.conscientizacao-img{
+	background-color: black;
+	padding: 5px;
+}
+
+.lista-conscientizacao li{
+	background-color: #3ed1fe;
+	text-align: center;
+}
+
+.lista-conscientizacao li h3{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.lista-conscientizacao li h3:after{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: black;
+	margin: auto;
+}
+
+.lista-conscientizacao li p{
+	padding: 0px 20px 20px 20px;
+}
+
+.call{
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+
+.call p{
+	margin-bottom: 20px;
+}
+
+/*Portifolio*/
+.portifolio{
+	background-color: black;
+	padding: 40px 0px;
+}
+
+.portifolio .subtitulo{
+	color: #3ed1fe;	
+}
+
+.portifolio .subtitulo:after{
+	background-color: #3ed1fe;	
+}
+
+.portifolio p{
+	color: white;
+}
+
+.portifolio ul li:last-child{
+	margin-top: 10px;
+}
+
+.portifolio ul li img{
+	width: 100%;
+}
+
+/*Qualidade*/
+.qualidade{
+	padding: 60px 0px;
+}
+
+.img-qualidade{
+	display: block;
+	margin: 0 auto;
+	width: 180px;
+}
+
+.lista-qualidade li{
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+
+.lista-qualidade{
+	overflow: auto;
+}
+
+.lista-qualidade li h3{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.lista-qualidade li h3:after{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: black;
+	margin: auto;
+}
+
+.container-qualidade{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;	
+}
+
+.qualidade:after{
+	content: "";
+	width: 634px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: 235px;
+	left: 180px;
+}
+
+/*Quebra*/
+.quebra{
+	width: 100%;/*largura*/
+	height: 220px;/*altura*/
+	background-image: url(../img/witcher.png);
+	background-size: cover;
+	text-align: center;
+	padding-top: 40px;
+}
+
+/*Rodape*/
+footer {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+}
+
+footer h3{
+	font-size: 18px;
+	line-height: 25px;
+	color: #3ed1fe;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;	
+}
+
+footer h3:after{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: #3ed1fe;
+	margin: 5px 0px 15px 0px;
+}
+
+.footer-historia p{
+	max-width: 70%;
+}
+
+.footer-contato{
+	line-height: 30px;
+}
+
+.footer-redes ul li{
+	display: inline-block;	
+}
+
+.footer-redes ul li img{
+	border: 3px solid #3ed1fe;
+	padding: 10px;
+	margin: 0px 5px;
+}
+
+.footer-redes ul li img:hover{
+	border: 3px solid #FFF;
+}
+
+.copy{
+	background-color: #3ed1fe;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding: 20px;	
+}

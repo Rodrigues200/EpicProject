@@ -1,0 +1,330 @@
+@media only screen and (min-width: 900px) and (max-width: 1020px){
+	.novo-menu{
+		display: none;
+	}
+
+	.lista-qualidade li{
+		padding: 30px 35px 0px 35px;
+		width: 32%;
+	}
+
+	.container-qualidade{
+		width: 800px;	
+	}
+
+	.qualidade:after{
+		left: 84px;
+	}
+
+	.footer-redes ul li img{
+		padding: 6px;
+	}
+}
+
+@media only screen and (max-width: 900px){
+
+	.novo-menu{
+		display: none;
+	}
+
+/*HEADER MENU*/
+	header .img-logo{
+		margin: 0 50%;
+		transform: translate(-50%);
+	}
+
+	.header_menu{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.header_menu ul li a{
+		border: 4px solid black;
+		float: left;
+		display: block;
+		width: 140px;
+	}
+
+	.header_menu .pipe:after{
+		content: "";
+		padding: 0;
+	}
+
+	.header_menu ul li a:hover{
+		border: 4px solid white;
+	}
+
+	.header_menu li .ativo{
+		border: 4px solid white;
+	}
+
+	/*intrducao*/
+	.intro{
+		padding-top: 20px;
+		background-image: url("../img/bg-mobile.jpg");
+	}
+
+	blockquote{
+		max-width: 100%;
+	}
+
+/*Qualidade*/
+	.container-qualidade{
+		width: 300px;	
+	}
+
+	.qualidade:after{
+		left: -166px;
+	}
+
+	.lista-qualidade li h3{
+		margin: 0px;
+	}
+
+	/*Quebra*/
+	.quebra blockquote{
+		width: 0%;
+	}
+
+	/*Footer*/
+	/*Redes Sociais*/
+	.footer-redes ul li img{
+		padding: 6px;
+	}
+
+	/*PAGINA SOBRE*/
+	.foto-equipe{
+		padding-top: 0px;
+		width: 200%;
+		margin-left: -50%;
+	}
+
+	/*PAGINA Doação*/
+	.conscientizacao-item{
+		padding-top: 0px;
+	}	
+
+	.conscientizacao-item h2{
+		position: relative;
+		margin-top: 40px;
+		top: 110px;
+	}
+
+	.conscientizacao-info{
+		margin-bottom: 160px;
+	}
+
+	.conscientizacao-info p{
+		height: 260px;
+		padding: 20px;
+	}
+
+	.conscientizacao-info ul li{
+		font-size: 14px;
+	}
+
+	.margin{
+		margin-bottom: 5px;
+	}
+
+	/*PAGINA PORTIFOLIO*/
+
+	.mensagem-cliente blockquote{
+		width: 60%;
+	}
+
+	/*PAGINA CONTATO*/
+	.contato{
+		margin-top: 0px;
+	}
+
+	.contato-dados h3{
+		margin-top: 40px;
+	}
+
+	.aumenta-mapa{
+		width: 100%;
+		padding: 0 10px;
+	}
+
+}
+
+@media only screen and (max-width: 660px){
+	.conscientizacao-img img{
+		width: 100%;
+	}
+
+	.qualidade:after{
+		display: none;
+	}
+
+	.novo-menu{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 515px){
+
+	.intro h1{
+		font-size: 40px;
+		text-align: left;
+	}
+
+	header{
+		display: none;
+	}
+
+	.aparece-menu{
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.novo-menu{
+		width: 100%;
+		background-color: #3ed1fe;
+		display: block;
+		height: 100px;
+		position: absolute;
+		top: 0;
+	}
+
+	.img-logo{
+		margin: 20px 100px;
+	}
+
+	/*MENU HAMBURGUER*/
+
+	.novo-menu .menu-sandwich{
+		border: 1px solid black;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		transition: 1s;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+
+	.novo-menu .menu-sandwich:hover{
+		box-shadow: 0 0 0 4px black, 0 0 0 4px black;
+		transition: 1s;
+		cursor: pointer;
+	}
+
+	.novo-menu .hamburguer{
+		display: block;
+		background-color: #000;
+		width: 30px;
+		height: 4px;
+		position: relative;
+		top: 27px;
+		left: 14px;
+		transition: .5s;
+	}
+
+	.novo-menu .hamburguer:before, .hamburguer:after{
+		content: "";
+		display: block;
+		background-color: #000;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		transition: .5s;
+	}
+
+	.novo-menu .hamburguer:before{
+		top: 10px;
+		z-index: 1;
+	}
+
+	.intro, .intro-paginas{
+		margin-top: 100px;
+	}
+
+	.novo-menu .hamburguer:after{
+		bottom: 10px;
+	}
+
+	.novo-menu input{
+		display: none;
+	}
+
+	.novo-menu input:checked ~ label .hamburguer{
+		transform: rotate(45deg);
+	}
+
+
+	.novo-menu input:checked ~ label .hamburguer:before{
+		transform: rotate(90deg);
+		top: 0;
+	}
+
+	.novo-menu input:checked ~ label .hamburguer:after{
+		transform: rotate(90deg);
+		bottom: 0;
+	}
+
+	.novo-menu input:checked ~ label .menu-sandwich{
+		box-shadow: 0 0 0 70vw #3ed1fe, 0 0 0 70vw #3ed1fe;
+	}
+
+	.novo-menu input:checked ~ .aparece-menu{
+		opacity: 1;
+		position: absolute;
+		visibility: visible;
+		width: 70%;
+		top: 20px;
+		left: 80px;
+		transition: 1s .08s;
+	}
+
+}
+
+
+@media only screen and (max-width: 400px){
+
+	.intro h1{
+		font-size: 32px;
+		text-align: center;
+	}
+
+	.novo-menu input:checked ~ .aparece-menu{
+		width: 70%;
+		left: 90px;
+		top: 20px;
+	}
+
+	.header_menu ul li a{
+		width: 80px;
+		font-size: 8px;
+	}
+
+	.produto-info p{
+		height: 360px;
+		padding: 20px;
+	}
+
+	.produto-item img{
+		width: 100%;
+		padding: 10px;
+	}
+
+	.produto-info ul li{
+		font-size: 65%;
+	}
+
+	.foto h2{
+		font-size: 30px;
+	}
+
+	.orcamento-dados, .contato-dados{
+		margin-left: -50px;
+		margin-top: 20px;
+	}
+
+	.quebra blockquote{
+		margin-top: -40px;
+	}
+
+
+}

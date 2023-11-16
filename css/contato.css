@@ -1,0 +1,82 @@
+.intro-contato{
+	background-image: url("../img/fundoSite.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.contato{
+	width: 100%;
+	margin-top: 60px;
+	padding: 30px;
+}
+
+.form label{
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.form input, .form textarea{
+	width: 100%;
+	border: 4px solid #3ed1fe;
+	background: none;
+	color: #FFF;
+	padding: 5px 10px;
+	font-weight: bold;
+	outline: none;
+	margin-bottom: 15px;
+}
+
+.form textarea{
+	height: 100px;
+}
+
+
+.form .btn{
+	background: none;
+}
+
+.form .btn:hover{
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.contato-dados{
+	color: #FFF;
+	padding-left: 40px;
+	font-family: Georgia;
+}
+
+.contato-dados h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #3ed1fe;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.contato-dados p{
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.monte{
+	margin-top: 40px;
+}
+
+.contato-dados ul li{
+	padding: 10px 15px;
+	width: 70%;
+}
+
+.contato-dados ul li:nth-child(odd){
+	background-color: #992786 85.61%;
+}
+
+.border{
+	border: 1px solid #FFF;
+	margin-bottom: 20px;
+} 
