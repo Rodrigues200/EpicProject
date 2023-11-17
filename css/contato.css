@@ -1,5 +1,5 @@
 .intro-contato{
-	background-image: url("../img/fundoSite.jpg");
+	background-image: url("../img/imagempadrao.png");
 	background-position: center;
 	background-size: cover;
 }
@@ -80,3 +80,65 @@
 	border: 1px solid #FFF;
 	margin-bottom: 20px;
 } 
+
+/* ~ Parte card de vidro  */
+
+.geralcard {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	background: url(back.jpg);
+	background-size: cover;
+	background-position: no-repeat;
+}
+
+.card {
+	width: 350px;
+	height: 75vh;
+	padding: 20px;
+	backdrop-filter: blur(20px);
+	border: 2px solid #FFFFFF;
+	border-radius: 20px;
+	display: grid;
+	align-content: center;
+}
+
+.card p {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.imgCard {
+	width: 120px;
+	margin: auto;
+	border: 2px solid #FFFFFF;
+	border-radius: 10%;
+	margin: 30px auto 40px auto;
+}
+
+.name {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+}
+
+.card button {
+	width: 80%;
+	padding: 8px 0;
+	margin: auto;
+	background-color: #3a3636;
+	color: #FFFFFF;
+	border-radius: 7px;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	transition: 0.3s;
+}
+
+.card button:hover {
+	background: fixed;
+}
